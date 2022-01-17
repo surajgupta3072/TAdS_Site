@@ -1,0 +1,129 @@
+body
+{
+background-color: black;
+margin-left: 0;
+margin-right: 0;
+}
+
+h1
+{
+  font-size: 50px;
+  font-weight: bolder;
+ 
+}
+
+p
+{
+  font-size: 25px;
+  margin-left:12%;
+  margin-right:12% ;
+}
+
+hr{
+  background-color: #F9F9F9;
+}
+
+.adweekend 
+{
+padding-top: 40px;
+  background-color:  #000000 ;
+  text-align: center;
+  color: #F9F9F9 ;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.review{
+background-color:  #000000 ;
+color: #F9F9F9 ;
+font-family: 'Montserrat', sans-serif;
+margin-left: 0;
+margin-right: 0;
+padding-top:5% ;
+padding-bottom: 3%;
+padding-right: 7%;
+
+}
+
+.review1{
+  padding-top: 2% ;
+  padding-left: 10%;
+}
+
+.review2{
+  text-align: center;
+}
+
+
+.paintball , .zorbing , .meltdown , .archery , .laser , .bull , .foosball , .kartmania 
+{
+
+  border-radius: 0px;
+  margin-top: 50px;
+  margin-left: 160px;
+  margin-right: 160px;
+  padding-bottom: 30px;
+  padding-top: 1px;
+  background-color: #000000   ;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.kart_video{
+  width: 70%;
+  height: 70%;
+  margin-bottom: 5%;
+}
+
+
+@media  (max-width: 800px) 
+{
+.kart_video{
+  height: 30%;
+  width: 97%;
+}
+
+.review{
+  text-align: center;
+}
+.review2{
+padding-left: 10%;
+}
+p{
+  font-size: 1.3rem;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.a3{
+  width: 93%;
+}
+
+ .z3 {
+   width: 93%;
+ }
+  .p1 {
+  
+    padding :0 ;
+    margin: 0;
+  }
+  
+.photo{
+  margin-bottom: 10px;
+}
+
+
+}
+
+
+
+
+
+ 
+  
+
+
+
+  
+
+

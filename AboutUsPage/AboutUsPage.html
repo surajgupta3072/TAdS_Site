@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+     <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="./../HomePage/HomePage.css">
+  <script type="text/Javascript" src="./../HomePage/HomePage.js"></script>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="styles/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+</head>
+<style>
+    body {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .main1 {
+        display: flex;
+        flex-direction: column;
+        background-image: url("./Images/bg1.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+
+        font-family: Verdana, sans-serif;
+        margin: 0 0% 0 0%;
+        height: 650px;
+        width: 84%;
+        display: flex;
+        color: white;
+        padding: 0 8% 0% 8%;
+
+    }
+
+    /* .main1 {
+        height: 500px;
+        width: 100%;
+        background-color: black;
+        color: white;
+    } */
+
+    .para1 {
+        color: white;
+        float: right;
+        width: 50%;
+        margin-top: 5%;
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .para2 {
+        margin-top: 5%;
+        width: 50%;
+        font-size: 50px;
+        font-weight: 800;
+        color: #ec3423;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    .heading1 {
+        display: flex;
+        justify-content: right;
+        color: white;
+        margin-top: 5%;
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+    .main2 {
+        background-color: rgb(47, 19, 19);
+        height: auto;
+        width: 84%;
+        padding: 2% 8% 4% 8%;
+
+
+    }
+
+    .heading2 {
+        display: flex;
+        justify-content: center;
+        font-family: Verdana, sans-serif;
+        font-size: 50px;
+        padding-top: 1.5%;
+        font-weight: 600;
+        color: white;
+    }
+
+    /* Slideshow container */
+    .slideshow-container {
+        margin: 0;
+        margin-top: 2%;
+  
+    
+    }
+
+    /* Next & previous buttons */
+    .prev{
+        cursor: pointer;
+        position: absolute;
+        width: auto;
+        padding: 16px;
+        margin-top: -20%;
+        color: rgb(255, 0, 0);
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        margin-left: -8%;
+    }
+
+
+    .next {
+        cursor: pointer;
+        position: absolute;
+        width: auto;
+        padding: 16px;
+        margin-top: -20%;
+        color: rgb(255, 0, 0);
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+    .next:hover{
+        transform: scale(1.5);
+    }
+    .prev:hover{
+        transform: scale(1.5);
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+    /* Fading animation */
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    .playground {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .pwording1 {
+        width: 42%;
+        /* justify-content: center; */
+        /* align-items: center; */
+        font-family: Verdana, sans-serif;
+        color: white;
+        font-size: 20px;
+        margin: 10% 0 6% 0;
+        font-weight: 200;
+    }
+    .pwording2 {
+        width: 42%;
+        background-color: #ec3423;
+        font-family: Verdana, sans-serif;
+        color: rgb(255, 255, 255);
+        font-size: 27px;
+        margin: 8% 0 6% 0;
+        font-weight: 200;
+        border-radius: 20px;
+        border: none;
+        padding: 13px;
+    }
+    .wording {
+        width: 42%;
+        /* justify-content: center; */
+        /* align-items: center; */
+        font-family: Verdana, sans-serif;
+        color: white;
+        font-size: 36px;
+        margin-top: 1%;
+        font-weight: 600;
+    }
+
+    .fadingImages {
+        width: 50%;
+        height: 400px;
+        padding: 0.5%;
+        margin: 0 0 0 7%;
+    }
+    @media screen and (max-width: 900px) {
+
+    .para1 {
+        color: white;
+        float: right;
+        width: 100%;
+        margin-top: 5%;
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .para2 {
+        margin-top: 5%;
+        width: 90%;
+        font-size: 36px;
+        font-weight: 600;
+        color: #ec3423;
+    }
+    .main1 {
+        display: flex;
+        flex-direction: column;
+        background-image: url("./Images/bgm.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+
+        font-family: Verdana, sans-serif;
+        margin: 0 0% 0 0%;
+        height: 550px;
+        width: 84%;
+        display: flex;
+        color: white;
+        padding: 0 8% 0% 8%;
+
+    }
+
+    .heading1 {
+        display: flex;
+        justify-content: right;
+        color: white;
+        margin-top: 5%;
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .pwording1 {
+        width: 84%;
+        /* justify-content: center; */
+        /* align-items: center; */
+        font-family: Verdana, sans-serif;
+        color: white;
+        font-size: 20px;
+        margin: 10% 0 6% 0;
+        font-weight: 200;
+    }
+    .pwording2 {
+        width: 84%;
+        background-color: #ec3423;
+        font-family: Verdana, sans-serif;
+        color: rgb(255, 255, 255);
+        font-size: 27px;
+        margin: 8% 0 6% 0;
+        font-weight: 200;
+        border-radius: 20px;
+        border: none;
+        padding: 13px;
+    }
+    .wording {
+        width: 84%;
+        /* justify-content: center; */
+        /* align-items: center; */
+        font-family: Verdana, sans-serif;
+        color: white;
+        font-size: 27px;
+        margin-top: 1%;
+        font-weight: 600;
+        margin-bottom: 5%;
+    }
+
+    .fadingImages {
+    width: 100%;
+    height: 210px;
+    padding: 0.5%;
+    margin: 0 0 0 0%;
+    }
+    .wslide{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .playground {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .heading2 {
+        display: flex;
+        justify-content: center;
+        font-family: Verdana, sans-serif;
+        font-size: 55px;
+        padding-top: 1.5%;
+        font-weight: 600;
+        color: white;
+        margin:0 0 15% 15%;
+    }
+.next{
+    margin-top: -80%;
+}
+.prev{
+    margin-top: -80%;
+}
+
+    }
+
+</style>
+
+
+
+<body>
+
+  <section class="navigation">
+    <div class="nav-container">
+      <div class="brand">
+        <a href="./../HomePage/HomePage.html"><img src="./../Images/favicon.png" alt="" height="60" width="90" class="website_img"></a>
+      </div>
+      <nav>
+        <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+        <ul class="nav-list">
+          <li>
+            <a href="./../AboutUsPage/AboutUsPage.html">About Us</a>
+          </li>
+          
+          <li>
+            <a href="#!">Events</a>
+            <ul class="nav-dropdown">
+              <li>
+                <a href="./../EventsPage/Treks&Trips/Treks&Trips.html">Treks & Trips</a>
+              </li>
+              <li>
+                <a href="./../EventsPage/AdventureWeekend/adventure_weekend.html">Adventure Weekend</a>
+              </li>
+              <li>
+                <a href="./../EventsPage/Rapelling&Zipline/rappelling.html">Rappelling & Zipline</a>
+              </li>
+              <li>
+                <a href="#!">Cycle Trip</a>
+              </li>
+              <li>
+                <a href="./../EventsPage/GuestLecture/GuestLecture.html">Guest Lecture</a>
+              </li>
+              <li>
+                <a href="./../EventsPage/ESportsTournament/esports.html">E-sports Tournament</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="./../TeamPage/Team.html">Team</a>
+          </li>
+          <li>
+            <a href="./../BlogPage/blog.html">Blog</a>
+          </li>
+          <li>
+            <a href="./../ContactUsPage/contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+
+
+  <div class="main1">
+    <div class="heading1"> About Us </div>
+    <div class="text">
+        <p class="para2">
+            For Doers, <br>
+            Not Viewers
+        </p>
+        <p class="para1">
+            Founded in the year 2008, with a vision to promote adventurous sports and activities in the young and
+            enthusiastic minds.
+            <br>
+            <br>
+            We are committed to assisting you in achieving your wildest adventures as you build new friendships,
+            challenge
+            your limits, unwind your spirits, and learn about the natural world around you!
+            <br>
+            <br>
+            You do not have to worry about arrangements, technical assistance & equipment; all you need is the
+            strength
+            to
+            face your fears & the will to achieve the aim. For the rest, there is TAdS!
+        </p>
+    </div>
+</div> 
+
+
+<div class="main2">
+    <div class="heading2"> Major Events </div>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade" class="wslide" >
+            <div class="playground">
+                <div class="wording">
+                    <div class="pwording1">
+                        Adventure weekend
+                     </div>
+                  Stressed with upcoming exams? We're here!
+                    <br>
+                     <a href="./../EventsPage/AdventureWeekend/adventure_weekend.html"><button class="pwording2">Learn More</button></a>
+                </div>
+                <img class="fadingImages" src="./Images/1.jpg">
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="playground">
+                <div class="wording">
+                    <div class="pwording1">
+                        Cycle Trip
+                     </div>
+                   Explore the beauty of our campus.
+                    <br>
+                     <a href="./../EventsPage/CycleTrip/CycleTrip.html"><button class="pwording2">Learn More</button></a>
+                </div>
+                <img class="fadingImages" src="./Images/2.jpg">
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="playground">
+                <div class="wording">
+                    <div class="pwording1">
+                        Rappelling & Zipline
+                     </div>
+                   Hand in air and grab some stunning pictures!
+                    <br>
+                     <a href="./../EventsPage/Rapelling&Zipline/rappelling.html"><button class="pwording2">Learn More</button></a>
+                </div>
+                <img class="fadingImages" src="./Images/3.jpg">
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="playground">
+                <div class="wording">
+                    <div class="pwording1">
+                        Treks and Trips
+                     </div>
+                    Where strangers become friends for life.
+                    <br>
+                     <a href="./../EventsPage/Treks&Trips/Treks&Trips.html"><button class="pwording2">Learn More</button></a>
+                </div>
+                <img class="fadingImages" src="./Images/4.jpg">
+            </div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+</div>  
+</body>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = slides.length }
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+}
+</script>
+
+   
+</body>
+
+</html>
