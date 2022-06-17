@@ -19668,19 +19668,8 @@ html {
     font-size: 16px;
 }
 
-.u-body {
-    font-size: 1rem;
-    line-height: 1.6;
-}
 
-.u-body h1,
-.u-body h2,
-.u-body h3,
-.u-body h4,
-.u-body h5,
-.u-body h6 {
-    padding: 0;
-}
+
 
 h1,
 h2,
@@ -19996,13 +19985,6 @@ p {
     opacity: 1 !important;
 }
 
-[class*="u-custom-color-"].u-body,
-[class*="u-palette-"].u-body,
-[class*="u-gray-"].u-body,
-.u-white.u-body,
-.u-black.u-body {
-    background-image: none;
-}
 
 .u-button-style[class*="u-custom-color-"],
 .u-button-style[class*="u-palette-"],
@@ -22269,11 +22251,11 @@ a.pswp__share--download:hover {
 }
 
 .u-carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='https://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
 
 .u-carousel-control-next-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='https://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
 .u-carousel-indicators {
@@ -23280,9 +23262,6 @@ a.u-button-style.u-border-20 {
 
 /*begin-variables font-family*/
 
-.u-body {
-    font-family: 'Open Sans', sans-serif;
-}
 
 h1,
 h2,
@@ -23310,10 +23289,6 @@ h6 {
     color: #ffffff;
 }
 
-.u-body {
-    color: #111111;
-    background-color: #ffffff;
-}
 
 
 /*end-variables color*/
@@ -33596,11 +33571,7 @@ a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-colo
 a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-color-1-dark-3.active,
 a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-color-1-dark-3[class*="u-border-"].active,
 a.u-button-style.u-button-style.active>.u-text-active-color-1-dark-3,
-a.u-button-style.u-button-style.active>.u-text-active-color-1-dark-3[class*="u-border-"],
-:not(.level-2)>.u-nav>.u-nav-item>a.u-nav-link.u-text-hover-color-1-dark-3:hover,
-:not(.level-2)>.u-nav>.u-nav-item>a.u-nav-link.u-nav-link.u-text-active-color-1-dark-3.active,
-.u-popupmenu-items.u-text-hover-color-1-dark-3 .u-nav-link:hover,
-.u-popupmenu-items.u-popupmenu-items.u-text-active-color-1-dark-3 .u-nav-link.active {
+a.u-button-style.u-button-style.active>.u-text-active-color-1-dark-3[class*="u-border-"] {
     color: #293332 !important;
 }
 
@@ -33652,11 +33623,7 @@ a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-colo
 a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-color-1-dark-2.active,
 a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-color-1-dark-2[class*="u-border-"].active,
 a.u-button-style.u-button-style.active>.u-text-active-color-1-dark-2,
-a.u-button-style.u-button-style.active>.u-text-active-color-1-dark-2[class*="u-border-"],
-:not(.level-2)>.u-nav>.u-nav-item>a.u-nav-link.u-text-hover-color-1-dark-2:hover,
-:not(.level-2)>.u-nav>.u-nav-item>a.u-nav-link.u-nav-link.u-text-active-color-1-dark-2.active,
-.u-popupmenu-items.u-text-hover-color-1-dark-2 .u-nav-link:hover,
-.u-popupmenu-items.u-popupmenu-items.u-text-active-color-1-dark-2 .u-nav-link.active {
+a.u-button-style.u-button-style.active>.u-text-active-color-1-dark-2[class*="u-border-"] {
     color: #41807c !important;
 }
 
@@ -33708,11 +33675,7 @@ a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-colo
 a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-color-1-dark-1.active,
 a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-color-1-dark-1[class*="u-border-"].active,
 a.u-button-style.u-button-style.active>.u-text-active-color-1-dark-1,
-a.u-button-style.u-button-style.active>.u-text-active-color-1-dark-1[class*="u-border-"],
-:not(.level-2)>.u-nav>.u-nav-item>a.u-nav-link.u-text-hover-color-1-dark-1:hover,
-:not(.level-2)>.u-nav>.u-nav-item>a.u-nav-link.u-nav-link.u-text-active-color-1-dark-1.active,
-.u-popupmenu-items.u-text-hover-color-1-dark-1 .u-nav-link:hover,
-.u-popupmenu-items.u-popupmenu-items.u-text-active-color-1-dark-1 .u-nav-link.active {
+a.u-button-style.u-button-style.active>.u-text-active-color-1-dark-1[class*="u-border-"] {
     color: #2cccc4 !important;
 }
 
@@ -33764,11 +33727,7 @@ a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-colo
 a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-color-1.active,
 a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-color-1[class*="u-border-"].active,
 a.u-button-style.u-button-style.active>.u-text-active-color-1,
-a.u-button-style.u-button-style.active>.u-text-active-color-1[class*="u-border-"],
-:not(.level-2)>.u-nav>.u-nav-item>a.u-nav-link.u-text-hover-color-1:hover,
-:not(.level-2)>.u-nav>.u-nav-item>a.u-nav-link.u-nav-link.u-text-active-color-1.active,
-.u-popupmenu-items.u-text-hover-color-1 .u-nav-link:hover,
-.u-popupmenu-items.u-popupmenu-items.u-text-active-color-1 .u-nav-link.active {
+a.u-button-style.u-button-style.active>.u-text-active-color-1[class*="u-border-"] {
     color: #3be8e0 !important;
 }
 
@@ -33820,11 +33779,7 @@ a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-colo
 a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-color-1-light-1.active,
 a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-color-1-light-1[class*="u-border-"].active,
 a.u-button-style.u-button-style.active>.u-text-active-color-1-light-1,
-a.u-button-style.u-button-style.active>.u-text-active-color-1-light-1[class*="u-border-"],
-:not(.level-2)>.u-nav>.u-nav-item>a.u-nav-link.u-text-hover-color-1-light-1:hover,
-:not(.level-2)>.u-nav>.u-nav-item>a.u-nav-link.u-nav-link.u-text-active-color-1-light-1.active,
-.u-popupmenu-items.u-text-hover-color-1-light-1 .u-nav-link:hover,
-.u-popupmenu-items.u-popupmenu-items.u-text-active-color-1-light-1 .u-nav-link.active {
+a.u-button-style.u-button-style.active>.u-text-active-color-1-light-1[class*="u-border-"] {
     color: #72efe9 !important;
 }
 
@@ -33876,11 +33831,7 @@ a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-colo
 a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-color-1-light-2.active,
 a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-color-1-light-2[class*="u-border-"].active,
 a.u-button-style.u-button-style.active>.u-text-active-color-1-light-2,
-a.u-button-style.u-button-style.active>.u-text-active-color-1-light-2[class*="u-border-"],
-:not(.level-2)>.u-nav>.u-nav-item>a.u-nav-link.u-text-hover-color-1-light-2:hover,
-:not(.level-2)>.u-nav>.u-nav-item>a.u-nav-link.u-nav-link.u-text-active-color-1-light-2.active,
-.u-popupmenu-items.u-text-hover-color-1-light-2 .u-nav-link:hover,
-.u-popupmenu-items.u-popupmenu-items.u-text-active-color-1-light-2 .u-nav-link.active {
+a.u-button-style.u-button-style.active>.u-text-active-color-1-light-2[class*="u-border-"] {
     color: #adf6f2 !important;
 }
 
@@ -34884,11 +34835,7 @@ a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-colo
 a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-color-3-base.active,
 a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-color-3-base[class*="u-border-"].active,
 a.u-button-style.u-button-style.active>.u-text-active-color-3-base,
-a.u-button-style.u-button-style.active>.u-text-active-color-3-base[class*="u-border-"],
-:not(.level-2)>.u-nav>.u-nav-item>a.u-nav-link.u-text-hover-color-3-base:hover,
-:not(.level-2)>.u-nav>.u-nav-item>a.u-nav-link.u-nav-link.u-text-active-color-3-base.active,
-.u-popupmenu-items.u-text-hover-color-3-base .u-nav-link:hover,
-.u-popupmenu-items.u-popupmenu-items.u-text-active-color-3-base .u-nav-link.active {
+a.u-button-style.u-button-style.active>.u-text-active-color-3-base[class*="u-border-"] {
     color: #478ac9 !important;
 }
 
@@ -34940,11 +34887,7 @@ a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-colo
 a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-color-4-dark-3.active,
 a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-color-4-dark-3[class*="u-border-"].active,
 a.u-button-style.u-button-style.active>.u-text-active-color-4-dark-3,
-a.u-button-style.u-button-style.active>.u-text-active-color-4-dark-3[class*="u-border-"],
-:not(.level-2)>.u-nav>.u-nav-item>a.u-nav-link.u-text-hover-color-4-dark-3:hover,
-:not(.level-2)>.u-nav>.u-nav-item>a.u-nav-link.u-nav-link.u-text-active-color-4-dark-3.active,
-.u-popupmenu-items.u-text-hover-color-4-dark-3 .u-nav-link:hover,
-.u-popupmenu-items.u-popupmenu-items.u-text-active-color-4-dark-3 .u-nav-link.active {
+a.u-button-style.u-button-style.active>.u-text-active-color-4-dark-3[class*="u-border-"] {
     color: #332929 !important;
 }
 
